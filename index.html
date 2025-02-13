@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Delicious Apples</title>
+    <style>
+      .premises {
+        height: 600px;
+        width: 900px;
+        background-color: rgb(0 227 127);
+        border-radius: 5px;
+      }
+
+      .inside {
+        background-color: white;
+        width: 600px;
+        display: inline-block;
+        height: 520px;
+        margin: 5% 5% 5% 15%;
+        border-radius: 5px;
+        font-family: sans-serif;
+      }
+      .heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 900;
+      }
+      .alignment {
+        text-align: center;
+        margin-left: -40px;
+      }
+      #code {
+        font-size: 13px;
+        font-weight: 100;
+        color: gray;
+
+        margin-top: -10px;
+      }
+      #cost {
+        text-align: center;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      #apples {
+        width: 40px;
+        padding: 5px;
+      }
+      #mainTemplateApples {
+        width: 45px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 10px 2px 0px 5px;
+        box-shadow: 1px 0px 3px black;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="premises">
+      <section class="inside">
+        <header>
+          <h1 class="heading">Delicious Apples</h1>
+        </header>
+
+        <p id="code" class="alignment">COD: <sub>45999</sub></p>
+        <p id="cost" style="color: red">
+          R$
+          <span style="font-size: 50px; font-weight: 300; margin-left: 10px"
+            >7.93</span
+          >
+        </p>
+        <p
+          class="alignment"
+          id="cost"
+          style="
+            font-size: 13px;
+            font-weight: 100;
+            color: gray;
+            margin-left: 14px;
+            letter-spacing: 1px;
+          "
+        >
+          SELECT A COLOR
+        </p>
+
+        <figure id="cost" style="margin-left: 150px">
+          <img
+            src="./media/green-appleSmall.png"
+            alt="smallGreenApple"
+            id="apples"
+            style="
+              border: 1px solid gray;
+              border-radius: 5px;
+              box-shadow: 1px 1px 5px gray;
+            "
+          />
+          <img src="./media/yellow-apple.png" alt="yellowApple" id="apples" />
+          <img src="./media/orange-apple.png" alt="orangeApple" id="apples" />
+          <img src="./media/red-apple.png" alt="redApple" id="apples" />
+        </figure>
+
+        <p
+          class="alignment"
+          id="cost"
+          style="
+            font-size: 13px;
+            font-weight: 100;
+            color: gray;
+            margin-left: -38px;
+            letter-spacing: 1px;
+          "
+        >
+          BENIFITS
+        </p>
+        <ul
+          style="
+            font-weight: 100;
+            float: right;
+            margin-right: 50px;
+            margin-top: 0px;
+            line-height: 24px;
+            word-spacing: 1px;
+          "
+        >
+          <li>Apples are nutricious</li>
+          <li>Apples may be good for weight loss</li>
+          <li>Apples may be good for bone health</li>
+          <li>They're linked to a lowest rist of diabets</li>
+        </ul>
+
+        <aside
+          style="
+            background-color: rgb(181 233 61);
+            height: 450px;
+            width: 260px;
+            float: left;
+            margin-top: -300px;
+            margin-left: -50px;
+            border-radius: 5px;
+            box-shadow: 2px 1px 10px gray;
+          "
+        >
+          <figure>
+            <img
+              src="./media/likes.png"
+              alt="like"
+              style="width: 30px; margin-left: 88%"
+            />
+          </figure>
+          <figure>
+            <img
+              src="./media/green-apple.png"
+              alt="mainGreenApple"
+              style="margin-left: -100px; width: 300px"
+            />
+          </figure>
+
+          <figure
+            style="
+              background-color: white;
+              width: 260px;
+              margin-left: 0px;
+              height: 75px;
+            "
+          >
+            <img
+              src="./media/green-appleSmall.png"
+              alt="fullGreenApple"
+              id="mainTemplateApples"
+            />
+            <img
+              src="./media/half-apple.png"
+              alt="halfGreenApple"
+              id="mainTemplateApples"
+            />
+            <img
+              src="./media/green-apple-flipped.png"
+              alt="flippedGreenApple"
+              id="mainTemplateApples"
+            />
+            <img
+              src="./media/apple-top.png"
+              alt="topGreenApple"
+              id="mainTemplateApples"
+            />
+          </figure>
+        </aside>
+        <button
+          style="
+            width: 150px;
+            height: 45px;
+            background-color: rgb(255 63 65);
+            border-radius: 8px;
+            border: 0px;
+            margin-left: 40px;
+            box-shadow: 1px 1px 5px gray;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+          "
+        >
+          ADD TO CART
+        </button>
+      </section>
+    </article>
+  </body>
+</html>
